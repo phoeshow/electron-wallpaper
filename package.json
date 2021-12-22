@@ -1,6 +1,6 @@
 {
-  "name": "electron-wallpaper",
-  "version": "0.0.3",
+  "name": "@phoeshow/electron-wallpaper",
+  "version": "0.0.1",
   "description": "Node module that allows you to attach a window as wallpaper in Windows.",
   "main": "lib/electron-wallpaper.js",
   "homepage": "https://github.com/robinwassen/electron-wallpaper",
@@ -32,14 +32,15 @@
     "node": ">=4"
   },
   "devDependencies": {
-    "electron": "^2.0.8",
-    "electron-rebuild": "^1.8.2",
-    "eslint": "^4.19.1",
-    "jsdoc-to-markdown": "^4.0.1",
-    "prebuild": "^7.6.2"
+    "electron": "^8.0.0",
+    "electron-rebuild": "^3.2.5",
+    "eslint": "^6.8.0",
+    "jsdoc-to-markdown": "^5.0.3",
+    "prebuild": "^11.0.0"
   },
   "dependencies": {
-    "bindings": "^1.3.0",
-    "prebuild-install": "^5.0.0"
+    "bindings": "^1.5.0",
+    "prebuild-install": "^7.0.0",
+    "node-addon-api": "^4.2.0"
   }
 }
