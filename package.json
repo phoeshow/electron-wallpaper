@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "description": "Node module that allows you to attach a window as wallpaper in Windows.",
   "main": "lib/electron-wallpaper.js",
-  "homepage": "https://github.com/robinwassen/electron-wallpaper",
+  "homepage": "https://github.com/phoeshow/electron-wallpaper",
   "gypfile": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/robinwassen/electron-wallpaper.git"
+    "url": "git@github.com:phoeshow/electron-wallpaper.git"
   },
   "keywords": [
     "window",
@@ -26,7 +26,7 @@
     "install": "prebuild-install || node-gyp rebuild",
     "prebuild-release": "prebuild --all --strip"
   },
-  "author": "Robin Andersson <me@robinwassen.com>",
+  "author": "Phoeshow <phoeshow.me@gmail.com>",
   "license": "Apache-2.0",
   "engines": {
     "node": ">=4"
